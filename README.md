@@ -1,22 +1,20 @@
 ## Apollo Federation Demo with Commerce Tool and AEM GQL without sub graph
 
-This repository is a demo of using Apollo Federation to connect to commerce tool GQL which wiil be behind an authentication the postman collection is updated in repo to play in postman once we can sucessully connect to another SASS 3rd party GQL which is in our case commerce tools GQL we will connect to AEM GQL than will try to merge the data of both.
+This repository is a demo for using Apollo Federation to connect to commerce tool GQL 3rd patry SASS which wiil be behind an oAuth authentication flow once we sucessully proff this integration next step is to connect with another SASS AEM GQL that we have to multiplex the data between commerce tools GQL and AEM GQL.
 
 ## Note
 
-We will first proff that we will connect to Commerce and AEM GQL without spining up new graph than we will see if we have to write a sub graph to merge the response of both
-
-
+We will first proff that we will connect to Commerce and AEM GQL without spining up new graph than we will see if we have to write a sub graph to merge the response 
 
 
 ## TODO
 
-1. Code Cleanup also conver more in TS
+1. Code Cleanup will do directly in JADE
 2. Run Authentiaction flow
 3. Once AEM is Deployed connect to AEM GQL
 
 
-## Client ID, Secrete or Auth token will provide in internal tool
+## Client ID, Secrete or Auth token will provide in teams
 
 ### Installation
 
