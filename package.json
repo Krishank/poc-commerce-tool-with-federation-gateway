@@ -1,0 +1,27 @@
+{
+  "name": "federation-commerce-integration",
+  "main": "gateway.js",
+  "scripts": {
+    "start-gateway": "nodemon gateway.js",
+    "start-service-products": "nodemon services/products/index.js",
+    "start-service-commerce": "nodemon services/commerce/index.js",
+    "start-services": "concurrently \"npm:start-service-*\"",
+    "postinstall": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "concurrently": "latest",
+    "lerna": "latest",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@apollo/gateway": "latest",
+    "@commercetools/sdk-auth": "^3.0.12",
+    "@graphql-tools/wrap": "^7.0.8",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-http": "^1.5.17",
+    "apollo-server": "latest",
+    "cross-fetch": "^3.1.4",
+    "graphql": "latest",
+    "graphql-transform-federation": "^2.2.0"
+  }
+}
