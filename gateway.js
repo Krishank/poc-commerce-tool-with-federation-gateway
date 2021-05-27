@@ -92,7 +92,7 @@ const setupGateway = async () => {
 //     { name: "commerce", url: "https://auth.europe-west1.gcp.commercetools.com/cos-australia/graphql" },
 //   ],
 //   introspectionHeaders: {
-//     Authorization: "Bearer a7kJ8146Z47s8k3-5MPS8H5qwPye1BJF"
+//     Authorization: "Bearer <token>"
 //   },
 
 //   buildService: ({ url }) => {
@@ -111,7 +111,7 @@ const setupGateway = async () => {
   //     willSendRequest({ request, context }) {
   //       request.http.headers.set(
   //         "Authorization",
-  //         "Bearer a7kJ8146Z47s8k3-5MPS8H5qwPye1BJF"
+  //         "Bearer <token>"
   //       );
   //     }
   //   });
